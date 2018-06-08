@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: white;
+}
+
+.chat-form .input-wrapper {
+    position: relative;
+    border: 1px silver solid;
+    border-radius: 15px;
+}
+
+.chat-form .input-wrapper input {
+    border: none;
+    width: 100%;
+    padding-right: 40px;
+    font-size: 1.2em;
+    background-color: transparent;
+}
+
+.chat-form .input-wrapper input:focus {
+    outline: none;
+}
+
+.chat-form .input-wrapper .send-button {
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    right: 10px;
+    border: none;
+    background: none;
+    color: #0d8eff;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.message {
+    text-align: right;
+}
+
+span.message-text {
+    font-size: 1.5em;
+    background: whitesmoke;
+    padding: 5px 10px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.message-container {
+    padding: 5px;
+    overflow-y: auto;
+}
+
+.message-time {
+    font-size: 0.7em;
+    color: gray;
+}
+
+.intro {
+    text-align: center;
+}
+
+.intro .avatar img {
+    width: 120px;
+    border-radius: 50%;
+}
+
+.intro h1 {
+    margin-top: 5px;
+    font-weight: normal;
+}
+
+.intro h1 div {
+    font-size: 0.6em;
+    color: silver;
+}
+
+.intro h1 div a {
+    color: gray;
+    text-decoration: none;
+}
+
+.intro h1 div a:hover {
+    text-decoration: underline;
+}
